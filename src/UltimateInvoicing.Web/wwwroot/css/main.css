@@ -1,0 +1,37 @@
+﻿.content-wrapper {
+    background-color: #f2f3f8;
+}
+
+.main-header {
+    border-bottom: 1px solid #eff0f6;
+    -webkit-box-shadow: 0 0 40px 0 rgba(82,63,105,.1);
+    box-shadow: 0 0 40px 0 rgba(82,63,105,.1);
+}
+
+.layout-fixed .main-sidebar {
+    background-color: #242939;
+}
+
+[class*=sidebar-dark] .user-panel,
+[class*=sidebar-dark] .brand-link {
+    border: none;
+}
+
+.menu-open ul.nav-treeview,
+.sidebar-dark-primary .nav-sidebar > .nav-item > .nav-link.active, .sidebar-light-primary .nav-sidebar > .nav-item > .nav-link.active {
+    background-color: #1f2433;
+}
+
+[class*=sidebar-dark-] .nav-treeview > .nav-item > .nav-link.active, [class*=sidebar-dark-] .nav-treeview > .nav-item > .nav-link.active:focus, [class*=sidebar-dark-] .nav-treeview > .nav-item > .nav-link.active:hover{
+    background-color: inherit;
+}
+
+[class*=sidebar-dark-] .nav-treeview > .nav-item > .nav-link.active {
+    color: #c2c7d0;
+}
+.nav-item.has-treeview > .nav-link.active .nav-icon {
+    color: #c2c7d0;
+}
+.nav-link.active i {
+    color: #5d78ff  ;
+}
