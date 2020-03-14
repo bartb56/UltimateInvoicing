@@ -18,8 +18,9 @@ namespace UltimateInvoicing.Web.Pages
         }
 
         public void OnGet()
+        
         {
-
+            
         }
     }
 }
