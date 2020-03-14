@@ -5,6 +5,10 @@
     <RootNamespace>UltimateInvoicing</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\UltimateInvoicing.HttpApi\UltimateInvoicing.HttpApi.csproj" />
+  </ItemGroup>
+
 
 
 </Project>

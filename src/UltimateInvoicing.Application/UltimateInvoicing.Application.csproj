@@ -5,4 +5,9 @@
     <RootNamespace>UltimateInvoicing</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\UltimateInvoicing.Application.Shared\UltimateInvoicing.Application.Shared.csproj" />
+    <ProjectReference Include="..\UltimateInvoicing.Domain\UltimateInvoicing.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
